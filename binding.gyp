@@ -24,6 +24,7 @@
                 ],
                 [
                     'OS=="mac"', {
+                        "include_dirs" : [ "<!@(brew --prefix)/include" ],
                         'xcode_settings': {
                             'GCC_ENABLE_CPP_EXCEPTIONS': 'YES'
                         },
